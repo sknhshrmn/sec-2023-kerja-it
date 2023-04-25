@@ -1,6 +1,6 @@
 import {
   RouterProvider,
-  createBrowserRouter,
+  createHashRouter,
   // BrowserRouter,
   // Routes,
   // Route,
@@ -10,7 +10,7 @@ import Home from "./pages/Home";
 // import { BASEURL } from "./constant/config";
 
 function App() {
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: "/",
       element: <Home />,
