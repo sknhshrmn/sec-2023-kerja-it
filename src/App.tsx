@@ -13,12 +13,8 @@ import Job from "./pages/Job";
 function App() {
   const router = createBrowserRouter([
     {
-      path: "sec-2023-react-js-kerja-it",
+      path: "/",
       element: <Home />,
-    },
-    {
-      path: "sec-2023-react-js-kerja-it" + "/job/:id",
-      element: <Job />,
     },
   ]);
 
