@@ -1,5 +1,6 @@
 import Moment from "moment";
 import { useNavigate } from "react-router-dom";
+import { BASEURL } from "../constant/config";
 
 function JobCard(props: any) {
   // function to detext if the year is 2023, isNew === true
@@ -9,9 +10,7 @@ function JobCard(props: any) {
   // navigate function
   const navigate = useNavigate();
   function handleClick() {
-    navigate(
-      `https://sknhshrmn.github.io/sec-2023-react-js-kerja-it/job/${props.job.id}`
-    );
+    navigate(BASEURL + `job/${props.job.id}`);
   }
 
   return (
