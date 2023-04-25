@@ -25,6 +25,7 @@ function App() {
       element: <Job />,
     },
   ]);
+  console.log(router);
 
   return (
     <>
