@@ -13,11 +13,11 @@ import Job from "./pages/Job";
 function App() {
   const router = createHashRouter([
     {
-      path: "/sec-2023-react-js-kerja-it",
+      path: "sec-2023-react-js-kerja-it",
       element: <Home />,
     },
     {
-      path: "/sec-2023-react-js-kerja-it" + "/job/:id",
+      path: "sec-2023-react-js-kerja-it" + "/job/:id",
       element: <Job />,
     },
   ]);
