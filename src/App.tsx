@@ -1,6 +1,6 @@
 import {
   RouterProvider,
-  createBrowserRouter,
+  createHashRouter,
   // BrowserRouter,
   // Routes,
   // Route,
@@ -11,7 +11,7 @@ import Job from "./pages/Job";
 // import { BASEURL } from "./constant/config";
 
 function App() {
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: "/sec-2023-react-js-kerja-it",
       element: <Home />,
