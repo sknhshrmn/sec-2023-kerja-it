@@ -10,7 +10,7 @@ function JobCard(props: any) {
   // navigate function
   const navigate = useNavigate();
   function handleClick() {
-    navigate(BASEURL + `job/${props.job.id}`);
+    navigate(`/job/${props.job.id}`);
   }
 
   return (
